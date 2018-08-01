@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>C1.C1Report.4</id>
+    <version>$version$</version>
+    <description>C1.C1Report.4</description>
+    <authors>ComponentOne</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Styxxy/ComponentOne-Nuget/master/componentone.png</iconUrl>
+    <projectUrl>https://www.grapecity.com/en/winforms</projectUrl>
+    <tags>ComponentOne C1 Winforms</tags>
+    <dependencies>
+      <dependency id="C1.Win.4" version="[$version$]" />
+      <dependency id="C1.Win.Barcode.4" version="[$version$]" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" />
+    </frameworkAssemblies>
+    <references>
+      <reference file="C1.C1Report.4.dll" />
+    </references>
+  </metadata>
+  <files>
+    <file src="Designer\C1.C1Report.4.Design.dll" target="lib\net40" />
+    <file src="C1.C1Report.4.dll" target="lib\net40" />
+    <file src="C1.C1Report.4.xml" target="lib\net40" />
+  </files>
+</package>

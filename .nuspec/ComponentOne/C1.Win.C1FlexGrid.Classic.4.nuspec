@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>C1.Win.C1FlexGrid.Classic.4</id>
+    <version>$version$</version>
+    <description>C1.Win.C1FlexGrid.Classic.4</description>
+    <authors>ComponentOne</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Styxxy/ComponentOne-Nuget/master/componentone.png</iconUrl>
+    <projectUrl>https://www.grapecity.com/en/winforms</projectUrl>
+    <tags>ComponentOne C1 Winforms</tags>
+    <dependencies>
+      <dependency id="C1.Win.C1FlexGrid.4" version="[$version$]" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Drawing" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C1.Win.C1FlexGrid.Classic.4.dll" target="lib\net40" />
+    <file src="C1.Win.C1FlexGrid.Classic.4.xml" target="lib\net40" />
+  </files>
+</package>
