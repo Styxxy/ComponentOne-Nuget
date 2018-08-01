@@ -9,3 +9,6 @@ Currently only the WinForms libraries are being packaged.
 Run create-nupkg-componentone.cmd from the command line. You are prompted to insert to installation path (default = %ProgramFiles(x86)%\ComponentOne) and the desired version (default = 4.0.20173.282).
 
 The Nuget packages will be generated in the bin folder.
+
+## Remarks
+Make sure you have nuget.exe in your PATH or next to the CMD file.
